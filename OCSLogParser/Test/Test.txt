@@ -1,0 +1,27 @@
+﻿Fri Feb 05 16:13:24 2016.844 Trc 50002 TEvent: EventAttachedDataChanged
+16:13:24.844 OCSEvent[-1927143521]::EventAttachedDataChanged(Unknown,CallTypeInbound)
+	TServer[523`T-Server_PBX_A_Primary_64]
+	DN[5451`151065]Extension
+{
+}
+received from 65201(--)callcpro2:3010(fd=10) message EventUserEvent
+	AttributeThisDN	'94045'
+	AttributeReferenceID	5384472
+	AttributeUserData	[709] 00 1D 01 00..
+		'GSW_APPLICATION_ID'	140
+		'GSW_CAMPAIGN_NAME'	'TDC'
+		'GSW_CALLING_LIST'	'LI15_OC'
+		'GSW_PHONE'	'12345678890'
+		'GSW_CALL_RESULT'	33
+		'GSW_RECORD_HANDLE'	87266334
+		'GSW_AGENT_REQ_TYPE'	'RecordProcessed'
+	AttributeUserEvent	EventUserEvent
+	AttributeTimeinSecs	1454710404 (16:13:24)
+	AttributeTimeinuSecs	839273
+	AttributeCustomerID	'Resources'
+	AttributeEventSequenceNumber	00000000609ef229
+Fri Feb 05 16:13:24 2016.844 Trc 50002 TEvent: EventUserEvent
+16:13:24.844 OCSEvent[-1927143520]::EventUserEvent(RecordProcessed)
+	TServer[529`T-Server_PBX_B_Primary_64]
+	DN[45539`94045]Extension
+	Agent[49494`Place_94045]
